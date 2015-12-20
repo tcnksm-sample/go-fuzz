@@ -1,12 +1,12 @@
 panic: input must not be ABCD
 
 goroutine 1 [running]:
-github.com/tcnksm-sample/go-fuzz.CoolFunc(0x820267e78, 0x4, 0x0, 0x0, 0x0, 0x0)
-	/var/folders/hk/t6xpt_j974gfnv_nd3t79x3h2b8vpv/T/go-fuzz-build399028266/src/github.com/tcnksm-sample/go-fuzz/main.go:17 +0x31e
+github.com/tcnksm-sample/go-fuzz.CoolFunc(0x820267e78, 0x4, 0x0, 0x0)
+	/var/folders/hk/t6xpt_j974gfnv_nd3t79x3h2b8vpv/T/go-fuzz-build746065454/src/github.com/tcnksm-sample/go-fuzz/main.go:19 +0x2e8
 github.com/tcnksm-sample/go-fuzz.Fuzz(0x8820430000, 0x4, 0x200000, 0x3)
-	/var/folders/hk/t6xpt_j974gfnv_nd3t79x3h2b8vpv/T/go-fuzz-build399028266/src/github.com/tcnksm-sample/go-fuzz/nicepkg_fuzz.go:6 +0x90
-github.com/dvyukov/go-fuzz/go-fuzz-dep.Main(0x17c4a0)
+	/var/folders/hk/t6xpt_j974gfnv_nd3t79x3h2b8vpv/T/go-fuzz-build746065454/src/github.com/tcnksm-sample/go-fuzz/nicepkg_fuzz.go:6 +0x90
+github.com/dvyukov/go-fuzz/go-fuzz-dep.Main(0x17ca40)
 	/Users/taichi.nakashima/src/github.com/dvyukov/go-fuzz/go-fuzz-dep/main.go:47 +0x14c
 main.main()
-	/var/folders/hk/t6xpt_j974gfnv_nd3t79x3h2b8vpv/T/go-fuzz-build399028266/src/go-fuzz-main/main.go:10 +0x23
+	/var/folders/hk/t6xpt_j974gfnv_nd3t79x3h2b8vpv/T/go-fuzz-build746065454/src/go-fuzz-main/main.go:10 +0x23
 exit status 2
