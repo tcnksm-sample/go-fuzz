@@ -1,0 +1,5 @@
+panic: input must not be ABCD
+github.com/tcnksm-sample/go-fuzz.CoolFunc
+github.com/tcnksm-sample/go-fuzz.Fuzz
+github.com/dvyukov/go-fuzz/go-fuzz-dep.Main
+main.main
